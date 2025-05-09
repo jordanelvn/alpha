@@ -4,7 +4,7 @@ const button = document.getElementById('submitBtn');
 
 async function sendToAlpha(message) {
   try {
-    const response = await fetch('http://localhost:3000/api/alpha', {
+    const response = await fetch('https://alpha-intelligence.onrender.com/api/alpha', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
